@@ -82,3 +82,8 @@ lxc copy CONTAINERNAME/SNAPNAME NEWCONTAINER               # new container from 
 lxc delete CONTAINERNAME/SNAPNAME
 lxc info CONTAINERNAME                 # lists snapshots among other info
 lxc move CONTAINERNAME/SNAPNAME CONTAINERNAME/NEWSNAPNAME  # rename snapshot
+```
+### LXD storaga locations on Debian system
+```
+/var/snap/lxd/common/mntns/var/snap/lxd/common/lxd/storage-pools/
+```
