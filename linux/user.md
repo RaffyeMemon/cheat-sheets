@@ -6,3 +6,4 @@ COMMAND | DESCRIPTION
 `sudo userdel username` | Delete a user
 `sudo usermod -aG groupname username` | Add a user to group
 `sudo deluser username groupname` | Remove a user from a group
+`sudo usermod -aG sudo username` | Add user to sudo group
